@@ -26,7 +26,8 @@ To created  R script called run_analysis.R that does the following:
 2. data from features.txt is readed. It is used to name the columns of data frame
 3. data from three training files is readed, column naming is performed
 4. merging all the training data in one data frame using cbind
-5. and 6.here are the same manipulations as in 3. and 4. but doing with testing data
+5. data from three testing files is readed, column naming is performed
+6. merging all the testing data in one data frame using cbind
 7. merging both training and testing data frames in one using rbind
 8. names of columns with mean and standart deviation of each measurement are found using grep function
 9. data frame is subseted by selected columns
